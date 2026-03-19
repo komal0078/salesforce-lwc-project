@@ -1,0 +1,24 @@
+<template>
+
+<lightning-card title="Create Support Case">
+
+<lightning-input label="Issue Description"
+                 value={description}
+                 onchange={handleDescription}>
+</lightning-input>
+
+<lightning-combobox
+label="Priority"
+value={priority}
+options={priorityOptions}
+onchange={handlePriority}>
+</lightning-combobox>
+
+<lightning-button
+label="Submit Case"
+onclick={createCase}>
+</lightning-button>
+
+</lightning-card>
+
+</template>
