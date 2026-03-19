@@ -1,3 +1,23 @@
+# Customer Support Ticket System (Salesforce)
+
+## Description
+A Salesforce-based application to manage customer support tickets and improve issue resolution.
+
+## Features
+- Ticket creation and tracking
+- Automated assignment using Flow
+- Apex triggers for validation and logic
+- LWC UI for managing tickets
+
+## Tech Stack
+- Salesforce
+- Apex
+- Lightning Web Components (LWC)
+
+## Author
+Komal Wankhede
+
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
